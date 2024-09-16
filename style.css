@@ -1,0 +1,156 @@
+h3{
+    font-style: bold; 
+}
+h5{
+    word-spacing: 10px;
+}
+.main{
+    width: 100%;
+    height: 300px;
+   
+}
+.header{
+    
+    font-style:bold;
+    text-align :center;
+    width: 100%;
+    height: 50px;
+
+    background-color: rgb(240, 248, 248);
+    margin-left: 1px;
+    margin-top: 1px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.8125rem;
+    font-family: Century Gothic Std, arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.col1 input{
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.header1{
+    font-family: "CenturyGothic Navigation", "CenturyGothic-nav-fallback", Arial, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 0.53;
+    color: #212529;
+    text-align: left;
+    word-spacing: 10px;
+}    
+.fashion{
+    float: left;
+    width: 50%;
+    height: 700px;
+    background-image: url(./DiorImages/fashion.avif);
+    background-size: cover;
+}
+.imagetext1{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 160px;
+    color: aliceblue;
+    font-style: bold;
+    font-size: 23px;
+}
+.fashion a{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 200px;
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    color: rgb(246, 240, 240);
+    margin-bottom: 10px;
+
+}
+.stylee{
+    float: left;
+    width: 50%;
+    height: 700px;
+    background-image: url(./DiorImages/stylee.avif);
+    background-size: cover;
+}
+.imagetext2{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 200px;
+    color: aliceblue;
+    font-style: bold;
+    font-size: 23px;
+}
+.stylee a{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 230px;
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    color: rgb(246, 240, 240);
+    margin-bottom: 10px;
+
+}
+
+.col1{
+    flex-grow:1;
+    
+}
+.col2{
+   
+    float: left;
+    flex-grow:1;
+}
+.col3{
+    
+    float: left;
+    flex-grow:1;
+    margin-bottom: 30px;
+}
+.col4 input{
+    /* position: absolute;
+    top: 700px;
+    left: 1000x; */
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.footer{
+    margin-top: 1px;
+    width: 100%;
+    display: flex;
+    font-family:  "Century Gothic Std", "ABCDiorIcons", "arial", "sans-serif";
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.8125rem;
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.col2 p{
+    line-height: 40px;
+}
+.col3 p{
+    line-height: 30px;
+}
+ .icon1 {
+    position: absolute;
+    top: 850px;
+    left: 1090px;
+    width: 50px;
+    height: 60px;
+  }
+  .icon2 {
+    position: absolute;
+    top: 920px;
+    left: 1090px;
+    width: 50px;
+    height: 60px;
+  }
+
