@@ -21,10 +21,11 @@ h5{
     margin-top: 1px;
     color: rgba(0, 0, 0, 0.87);
     font-size: 1.8125rem;
-    font-family: Century Gothic Std, arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     line-height: 1.5;
 }
+
 .col1 input{
     border-radius: 0;
     border-left: none;
@@ -32,6 +33,9 @@ h5{
     border-top: none;
 }
 .header1{
+    position: absolute;
+    top: 20px;
+    left: 30px ;
     font-family: "CenturyGothic Navigation", "CenturyGothic-nav-fallback", Arial, sans-serif;
     font-size: 0.8125rem;
     font-weight: 400;
@@ -41,6 +45,8 @@ h5{
     word-spacing: 10px;
 }    
 .fashion{
+    /* position: absolute;
+    top: 60px; */
     float: left;
     width: 50%;
     height: 700px;
